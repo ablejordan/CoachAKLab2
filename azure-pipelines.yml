@@ -1,7 +1,5 @@
 # Maven package Java project Web App to Linux on Azure
-- task: SonarQubePrepare@5
-  inputs:
-    scannerMode: 'Other'
+- task: SonarQubeAnalyze@5
 # Build your Java project and deploy it to Azure as a Linux web app
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
